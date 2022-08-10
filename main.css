@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran:700&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #090909;
+    background-image: url(./img/bg.jpeg);
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    background-repeat: no-repeat;
+  }
+  
+  /*--- navigation bar ---*/
+  
+  .navbar {
+    background:#030130;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  
+  .nav-link:hover {
+   text-decoration: underline rgb(255, 255, 255);
+   color: #fff;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-start;
+  }
+
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    font-size: 16pt;
+    
+  }
+  
+  .feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+
+  .banner{
+    height: 230px;
+    background-image: url(./img/banner2.jpg);
+    background-size: cover;
+    
+  }
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 290;
+    background: rgba(11, 10, 10, 0.187);
+  }
+
+ .dropdown-item:hover{
+
+  text-decoration: underline;
+ }
+.pageText{
+  font-weight: bold;
+  color:white;
+}
+ 
+#p1{
+  color: #cf0c59;
+  font-size: 72px;
+  font-weight: bold;
+  margin-left: 50px;
+  font-family: 'Catamaran';
+}
+
+#p2{
+color: white;
+text-transform: uppercase;
+margin-left: 200px;
+font-size: 20px;
+font-family: 'Catamaran';
+}
+
+footer{
+  color: white;
+}
+
+h3{
+  color: #fff;
+}
+
+.Norder{
+  list-style: none;
+  color: white;
+  padding: 0%;
+}
+
+.Norder li a{
+  text-decoration: underline;
+  color:#A2A2A1FF ;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+
+.Olink a{
+  text-decoration: underline;
+  color:#A2A2A1FF ;
+}
